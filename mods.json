@@ -1,0 +1,5 @@
+{
+  "list": [
+    { "label": "Backup Manager", "link": "https://github.com/ntaklive/BackupMod/releases/latest/download/BackupMod.zip", host: false }
+  ];
+}
