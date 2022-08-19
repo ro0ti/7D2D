@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <ModInfo>
+        <Name value="Nerded Backup Manager"/>
+        <Description value="Backs up the server automatically to skip unwanted issues."/>
+        <Author value="ro0ti"/>
+        <Version value="1.0.0"/>
+        <Website value="https://github.com/ro0ti/7D2D/releases" />
+    </ModInfo>
+</xml>

@@ -1,0 +1,27 @@
+{
+  "General": {
+    "BackupsLimit": 20,
+    "CustomBackupsFolder": "C:\\7DaysToDie\\Backups"
+  },
+  
+  "AutoBackup": {
+    "Enabled": true,
+    "Delay": 1200,
+    "SkipIfThereAreNoPlayers": false
+  },
+  
+  "Archive": {
+    "Enabled": true,
+    "BackupsLimit": 10,
+    "CustomArchiveFolder": "C:\\7DaysToDie\\Archive"
+  },
+  
+  "Events": {
+    "BackupOnWorldLoaded": true,
+    "BackupOnServerIsEmpty": false
+  },
+  
+  "Utilities": {
+    "ChatNotificationsEnabled": true
+  }
+}
