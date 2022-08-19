@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <ModInfo>
+    <Name value="Mod Manager" />
+    <Description value="Created to manage and update wanted mods without the hassle." />
+    <Author value="ro0ti" />
+    <Version value="1.0.0" />
+    <Website value="https://plr.gg/discord" />
+  </ModInfo>
+</xml>

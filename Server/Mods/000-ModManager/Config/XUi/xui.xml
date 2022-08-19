@@ -1,0 +1,7 @@
+<mods_xui>
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="modsErrorMessageBox" controller="CustomModManager.UI.XUiC_ModsErrorMessageBoxWindowGroup, ModManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+			<window name="modsErrorMessageBox" />
+		</window_group>
+	</append>
+</mods_xui>

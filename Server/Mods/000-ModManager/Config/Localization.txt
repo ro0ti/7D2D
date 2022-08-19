@@ -1,0 +1,56 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+xuiMods,UI,XUI,x,,Nerded Server Manager
+xuiModDisabled,UI,XUI,x,,Disabled
+xuiModEnabled,UI,XUI,x,,Enabled
+xuiModVersionTooltip,UI,XUI,x,,Installed mod version
+xuiOpenModsFolder,UI,XUI,x,,Open Mods Folder
+xuiModInformation,UI,XUI,x,,Info
+xuiModSettings,UI,XUI,x,,Settings
+xuiModWebsite,UI,XUI,x,,Download Latest Mods
+xuiModEnabled,UI,XUI,x,,Enabled
+xuiModFolder,UI,XUI,x,,View Mod Folder
+xuiModDisableStateReasonDisallowed,UI,XUI,x,,This mod cannot be disabled.
+xuiModDisableStateReasonDisallowedPreloaded,UI,XUI,x,,"This mod cannot be disabled because it loads before the Mod Manager does. To fix this, ensure that the mod's position in your Mods folder is underneath the Mod Manager folder in alphanumerical order (sort by 0-9 A-Z). This option will then become available on game restart."
+xuiNoModSettingsDetected,UI,XUI,x,,No mod settings were detected.
+xuiModSettingsReset,UI,XUI,x,,Reset
+xuiModManagerModDirSetting,UI,XUI,x,,Mod Directories
+xuiModManagerModDirSettingDesc,UI,XUI,x,,"The current directories to load mods from (separated by ';'). Changes are applied on restart."
+xuiModManagerCurrentModDirSetting,UI,XUI,x,,"Selected Mod Directory"
+xuiModManagerCurrentModDirSettingDesc,UI,XUI,x,,"The currently selected mod directory to open."
+xuiModManagerOpenModDirButton,UI,XUI,x,,"Open Current Mod Directory"
+xuiModManagerOpenModDirButtonDesc,UI,XUI,x,,"Click to open the currently selected mod directory."
+xuiModManagerOpenModDirButtonText,UI,XUI,x,,"Open"
+xuiModManagerShowPatchNotesOnStartupSetting,UI,XUI,x,,Show Patch Notes On Startup
+xuiModManagerShowPatchNotesOnStartupSettingDesc,UI,XUI,x,,Whether to show patch notes from new mod updates when starting up new versions for the first time.
+xuiModManagerShowUpdatesOnStartupSetting,UI,XUI,x,,Show Updates On Startup
+xuiModManagerShowUpdatesOnStartupSettingDesc,UI,XUI,x,,Whether to show new mod updates when starting up the main menu.
+xuiModVersionTooltipCurrentVersion,UI,XUI,x,,Installed Version
+xuiModVersionTooltipForGameVersion,UI,XUI,x,,For Game Version
+xuiModVersionTooltipAnUpdateIsAvailable,UI,XUI,x,,An update is available
+xuiModVersionTooltipCurrentVersionMayNotBeCompatible,UI,XUI,x,,This mod version may not be compatible with the current game version. Use at your own risk.
+xuiModVersionTooltipCurrentVersionNotCompatible,UI,XUI,x,,This mod version is not compatible with the current game version.
+xuiModVersionTooltipCurrentVersionNotSpecifiedNoManifestExists,UI,XUI,x,,Could not check version compatibility as no remote manifest has been found.
+xuiModVersionTooltipCurrentVersionNotSpecifiedManifest,UI,XUI,x,,Could not check version compatibility as no version has been specified in the remote manifest.
+xuiModVersionTooltipUpToDate,UI,XUI,x,,This mod is up to date.
+xuiModsListChanged,UI,XUI,x,,Mods List Changed
+xuiModsListChangedText,UI,XUI,x,,"For these changes to take effect, restart your game."
+xuiGameModListChanged,UI,XUI,x,,"This world has been saved with the following mods:\n{0}\n\nAre you sure you want to continue?"
+xuiGameModError,UI,XUI,x,,Error
+xuiGameModErrorGeneral,UI,XUI,x,,"An error has occurred: {0}"
+xuiGameModErrorDesc,UI,XUI,,,"{0} has reported an error when trying to execute the {1} event: {2}\n\n"
+xuiGameModErrorDescStackTrace,UI,XUI,,,"Click the book icon to copy the error message and the associated stacktrace to help the mod author."
+xuiGameModErrorIgnore,UI,XUI,x,,Ignore
+xuiGameModErrorButtonCopy,UI,XUI,x,,"Copy to Clipboard"
+xuiGameModErrorCopied,UI,XUI,x,,"Copied error message to clipboard."
+xuiModsSort,UI,XUI,x,,"Sort by: {0}"
+xuiModsSortAlphanumerical,UI,XUI,x,,"Alphanumerical"
+xuiModsSortLoadOrder,UI,XUI,x,,"Load Order"
+xuiModsSortAuthor,UI,XUI,x,,"Author"
+xuiModsSortUndefined,UI,XUI,x,,"Undefined"
+xuiModsListStateVanilla,UI,XUI,x,,"This is an unmodded game."
+xuiModsListStateModded,UI,XUI,x,,"This is a modded game.\n\nMods Used:\n{0}"
+xuiModsListStateUnknown,UI,XUI,x,,"This game hasn't been opened with Mod Manager before."
+xuiModDependenciesMissing,UI,XUI,x,,"Failed to load the following due to missing dependencies:\n\n{0}"
+xuiModDependencyMissingEntry,UI,XUI,x,,"{0}:{1}\n"
+xuiModDependencyMissing,UI,XUI,x,," Missing {0}"
+xuiModDependencyDisabled,UI,XUI,x,," Enable {0}"
