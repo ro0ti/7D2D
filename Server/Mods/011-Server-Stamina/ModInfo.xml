@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Brian's Mod Stamina Balance" />
+		<Description value="Lowers the stamina drain of several tools and melee weapons. Most are in line with a18 values." />
+		<Author value="Brian Thompson a.k.a. dhlmaster" />
+		<Version value="19.0" />
+		<Website value="http://7days.imadeyoursite.com" />
+	</ModInfo>
+</xml>
