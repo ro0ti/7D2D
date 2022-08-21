@@ -1,5 +1,12 @@
-# Biome Radiation
-We will set other biomes with radiation that way no one can go outside the snow biome without a hazmat suit.
+# Mods Folder
 
-# Stamina Balance
-Should be server side only but added it to package.
+We will update to the latest mods to be downloaded if that time comes. Mods running on the server right now are server based and has no need to download.
+
+## Manager.json
+
+Mods
+    => PRIORITY
+    => LABEL
+    => LINK
+
+Id will be used as an ordering integer. Example: `PRIORITY-LABEL`
