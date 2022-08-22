@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RadWasteland" />
+		<Description value="Radiation zone in Wastelands" />
+		<Author value="gemini" />
+		<Version value="20" />
+	</ModInfo>
+</xml>
