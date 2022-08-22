@@ -1,0 +1,13 @@
+Key,Source,Context,Changes,English,Russian
+buffRadiation01,buffs,Buff,New,"Radiation","Радиация",,,,
+buffRadiation01Name,buffs,Buff,New,"Radiation","Радиация",,,,
+buffRadiation01Desc,buffs,Buff,New,"You have entered an area with increased radiation.\nPut on the Hazmat Suit to remove its effect on you. ","Вы попали в зону с повышенной радиацией.\nОденьте костюм РЗК что бы убрать ее воздействие на вас.",,,,
+buffRadiation01Tooltip,buffs,Buff,New,"You are in a wasteland biome","Вы попали в радиацию",,,,
+buffWasteland,buffs,Buff,New,"Wasteland","Пустошь",,,,
+buffWastelanddName,buffs,Buff,New,"Wasteland","Пустошь",,,,
+buffWastelanddDesc,buffs,Buff,New,"You are in a wasteland biome\nChance of spawning radioactive zombies\nLoot GameStage +30%\nScavenging Time +80%\nLoot Quantity +50%\nPlayer Exp Gain +10%","Вы находитесь в биоме пустошь\nШанс спавна радиактивных зомби\nУровень качества лута +30%\nВремя поиска лута +80%\nКоличество лута +50%\nПолучение опыта +10%",,,,
+buffWastelanddTooltip,buffs,Buff,New,"You are in a wasteland biome","Вы попали в биом пустошь",,,,
+buffRadSuit,buffs,Buff,New,"Radiation Protection","Защита от Радиации",,,,
+buffRadSuitName,buffs,Buff,New,"Radiation Protection","Защита от Радиации",,,,
+buffRadSuitDesc,buffs,Buff,New,"You have put on the Hazmat Suit and are protected from the effects of radiation.","Вы одели костюм РЗК и защищены от воздействия радиации.",,,,
+buffRadSuitTooltip,buffs,Buff,New,"You are protected from radiation","Вы защищены от радиации",,,,
