@@ -4,11 +4,17 @@
 		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffRadiation01">
 			<requirement name="NotHasBuff" buff="god"/>
 			<requirement name="NotHasBuff" buff="buffRadSuit"/>
+			<requirement name="InBiome" biome="3"/>
+			<requirement name="InBiome" biome="5"/>
 			<requirement name="InBiome" biome="8"/>
+			<requirement name="InBiome" biome="9"/>
 		</triggered_effect>
 		
 		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffWasteland">
+			<requirement name="InBiome" biome="3"/>
+			<requirement name="InBiome" biome="5"/>
 			<requirement name="InBiome" biome="8"/>
+			<requirement name="InBiome" biome="9"/>
 		</triggered_effect>
 
 		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffRadSuit">
@@ -25,7 +31,7 @@
 		<buff name="buffRadiation01" name_key="buffRadiation01Name" description_key="buffRadiation01Desc" tooltip_key="buffRadiation01Tooltip" icon="ui_game_symbol_radiation" icon_color="255,69,0" icon_blink="true">
 			<damage_type value="radiation"/>
 			<stack_type value="ignore"/>
-			<duration value="5000"/>
+			<duration value="3000"/>
 			<update_rate value="1"/>
 
 
@@ -51,7 +57,10 @@
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffRadiation01">
+					<requirement name="!InBiome" biome="3"/>
+					<requirement name="!InBiome" biome="5"/>
 					<requirement name="!InBiome" biome="8"/>
+					<requirement name="!InBiome" biome="9"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffRadiation01">
 					<requirement name="HasBuff" buff="buffRadSuit"/>
@@ -71,14 +80,17 @@
 		<buff name="buffWasteland" name_key="buffWastelanddName" description_key="buffWastelanddDesc" tooltip_key="buffWastelanddTooltip" icon="ui_game_symbol_quality_joe" icon_color="0,205,50">
 			<stack_type value="ignore"/>
 			<effect_group>
-				<passive_effect name="LootGamestage" operation="perc_add" value=".3"/>
+				<passive_effect name="LootGamestage" operation="perc_add" value=".7"/>
 				<passive_effect name="ScavengingTime" operation="perc_add" value=".8"/>
-				<passive_effect name="LootQuantity" operation="perc_add" value=".5"/>
-				<passive_effect name="PlayerExpGain" operation="perc_add" value=".1"/>
+				<passive_effect name="LootQuantity" operation="perc_add" value="2.5"/>
+				<passive_effect name="PlayerExpGain" operation="perc_add" value="1.1"/>
 			</effect_group>
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffWasteland">
+					<requirement name="!InBiome" biome="3"/>
+					<requirement name="!InBiome" biome="5"/>
 					<requirement name="!InBiome" biome="8"/>
+					<requirement name="!InBiome" biome="9"/>
 				</triggered_effect>
 			</effect_group>
 			

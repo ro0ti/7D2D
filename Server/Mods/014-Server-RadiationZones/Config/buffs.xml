@@ -31,7 +31,7 @@
 		<buff name="buffRadiation01" name_key="buffRadiation01Name" description_key="buffRadiation01Desc" tooltip_key="buffRadiation01Tooltip" icon="ui_game_symbol_radiation" icon_color="255,69,0" icon_blink="true">
 			<damage_type value="radiation"/>
 			<stack_type value="ignore"/>
-			<duration value="5000"/>
+			<duration value="3000"/>
 			<update_rate value="1"/>
 
 
